@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Guthen Bloots';
+    src: local('Guthen Bloots Regular'), local('Guthen-Bloots-Regular'),
+        url('GuthenBloots.woff2') format('woff2'),
+        url('GuthenBloots.woff') format('woff'),
+        url('GuthenBloots.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
