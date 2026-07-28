@@ -43,7 +43,7 @@ const timeline: TimelinePhase[] = [
     status: "completed",
     summary:
       "Every journey begins with understanding where it starts. Baseline assessments capture existing farming practices, harvest volumes, and household needs, helping identify participating women farmers and providing the foundation for measuring progress throughout the initiative.",
-    image: "/assets/images/goals/img_0035.jpg.jpeg",
+    image: "/assets/images/goals/img_0035.JPG.jpeg",
     // highlights: [
     //   "Beneficiary profiling",
     //   "Land and farm needs review",
