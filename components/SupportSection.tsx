@@ -223,8 +223,6 @@ export default function SupportSection() {
             <h3 className="font-guthenBloots text-5xl leading-none">
               How you can help
             </h3>
-
-
             <p className="mt-4 font-productsFont text-white/75">
 
               The Chibok Groundnut Initiative is built on a simple belief: when women thrive, families and communities thrive with them.

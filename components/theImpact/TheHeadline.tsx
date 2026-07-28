@@ -66,13 +66,26 @@ export default function TheHeadline() {
           </article>
 
           <article className="rounded-[24px] border border-white/10 bg-white/[0.03] p-6 sm:p-7">
-<h3 className="text-4xl leading-none sm:text-5xl">
-  <span className="font-guthenBloots">From </span>
-  <span className="font-cormorant italic  text-5xl sm:text-4xl">9 </span>
-  <span className="font-guthenBloots">to </span>
-  <span className="font-cormorant italic  text-5xl sm:text-4xl">50 </span>
-  <span className="font-guthenBloots">Women</span>
-</h3>
+<h4 className="text-4xl leading-none sm:text-5xl">
+    <span className="font-guthenBloots">From </span>
+
+<span
+  className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-4xl [-webkit-text-stroke:1.2px_currentColor]`}
+>
+  9
+</span>
+
+<span className="font-guthenBloots"> to </span>
+
+<span
+  className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-4xl [-webkit-text-stroke:1.2px_currentColor]`}
+>
+ 50
+</span>
+
+  <span className="font-guthenBloots"> Women</span>
+  
+</h4>
 
             <p className="mt-5 font-productsFont text-base leading-8 text-white/72">
               In 2025, the pilot phase supported nine women farmers in Chibok
