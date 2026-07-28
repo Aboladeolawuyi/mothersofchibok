@@ -546,7 +546,7 @@ export default function BeneContent() {
 
   <span className="font-guthenBloots"> to </span>
 
-  <span className="font-afolkalips font-bold text-5xl sm:text-6xl md:text-6xl">
+  <span className="font-afolkalips italic font-bold text-5xl sm:text-6xl md:text-6xl">
     50
   </span>
 
