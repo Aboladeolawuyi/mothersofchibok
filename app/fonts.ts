@@ -1,5 +1,7 @@
 import localFont from "next/font/local";
 
+
+
 export const afolkalips = localFont({
     src: "../public/assets/fonts/Afolkalips.ttf",
     variable: "--font-afolkalips",
@@ -7,6 +9,10 @@ export const afolkalips = localFont({
     weight: "400",
     style: "normal",
 })
+export const greatVibes = localFont({
+  src: "../public/assets/fonts/GreatVibes-Regular.ttf",
+  variable: "--font-great-vibes",
+});
 
 export const hahmlet = localFont({
     src: "../public/assets/fonts/Hahmlet-VariableFont_wght.ttf",
