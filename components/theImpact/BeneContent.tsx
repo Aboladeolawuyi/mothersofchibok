@@ -540,13 +540,13 @@ export default function BeneContent() {
             <h2 className="mt-5 text-4xl leading-tight sm:text-5xl md:text-6xl lg:text-7xl">
   <span className="font-guthenBloots">From </span>
 
-  <span className="font-afolkalips font-bold text-5xl sm:text-6xl md:text-6xl">
+  <span className="font-guthenBloots font-bold text-5xl sm:text-6xl md:text-6xl">
     9
   </span>
 
   <span className="font-guthenBloots"> to </span>
 
-  <span className="font-afolkalips italic font-bold text-5xl sm:text-6xl md:text-6xl">
+  <span className="font-guthenBloots italic font-bold text-5xl sm:text-6xl md:text-6xl">
     50
   </span>
 
