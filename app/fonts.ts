@@ -1,26 +1,49 @@
 import localFont from "next/font/local";
 
-
-
 export const afolkalips = localFont({
-    src: "../public/assets/fonts/Afolkalips.ttf",
-    variable: "--font-afolkalips",
-    display: "swap",
-    weight: "400",
-    style: "normal",
-})
+  src: "../public/assets/fonts/Afolkalips.ttf",
+  variable: "--font-afolkalips",
+  display: "swap",
+  weight: "400",
+  style: "normal",
+});
+
+
 export const greatVibes = localFont({
   src: "../public/assets/fonts/GreatVibes-Regular.ttf",
   variable: "--font-great-vibes",
+  display: "swap",
+  weight: "400",
+  style: "normal",
 });
 
+
+export const dancingScript = localFont({
+  src: "../public/assets/fonts/DancingScript-VariableFont_wght.ttf",
+  variable: "--font-dancing-script",
+  display: "swap",
+  weight: "400 700",
+  style: "normal",
+});
+
+
+export const playwriteNZGuides = localFont({
+  src: "../public/assets/fonts/PlaywriteNZGuides-Regular.ttf",
+  variable: "--font-playwrite-nz-guides",
+  display: "swap",
+  weight: "400",
+  style: "normal",
+});
+
+
 export const hahmlet = localFont({
-    src: "../public/assets/fonts/Hahmlet-VariableFont_wght.ttf",
-    variable: "--font-hahmlet",
-    display: "swap",
-    weight: "100 900",
-    style: "normal",
-})
+  src: "../public/assets/fonts/Hahmlet-VariableFont_wght.ttf",
+  variable: "--font-hahmlet",
+  display: "swap",
+  weight: "100 900",
+  style: "normal",
+});
+
 
 export const productsFont = localFont({
   src: [
@@ -42,16 +65,13 @@ export const productsFont = localFont({
   ],
   variable: "--font-productsFont",
   display: "swap",
-})
+});
+
 
 export const guthenBloots = localFont({
-  src: [
-    {
-      path: "../public/assets/fonts/GuthenBloots.woff2",
-      weight: "400",
-      style: "normal",
-    },
-  ],
+  src: "../public/assets/fonts/GuthenBloots.woff2",
   variable: "--font-guthenBloots",
   display: "swap",
-})
+  weight: "400",
+  style: "normal",
+});

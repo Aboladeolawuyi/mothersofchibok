@@ -3,6 +3,9 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { ArrowUpRight, X } from "lucide-react";
+import { greatVibes } from "@/app/fonts";
+import { dancingScript } from "@/app/fonts";
+
 
 export type Beneficiary = {
   id: number;
@@ -540,15 +543,19 @@ export default function BeneContent() {
             <h2 className="mt-5 text-4xl leading-tight sm:text-5xl md:text-6xl lg:text-7xl">
   <span className="font-guthenBloots">From </span>
 
-  <span className="font-greatVibes font-bold text-5xl sm:text-6xl md:text-6xl">
-    9
-  </span>
+<span
+  className={`${dancingScript.className} font-black italic text-5xl sm:text-6xl md:text-6xl [-webkit-text-stroke:1.2px_currentColor]`}
+>
+  9
+</span>
 
-  <span className="font-guthenBloots"> to </span>
+<span className="font-guthenBloots"> to </span>
 
-  <span className="font-guthenBloots italic font-bold text-5xl sm:text-6xl md:text-6xl">
-    50
-  </span>
+<span
+  className={`${dancingScript.className} font-black italic text-5xl sm:text-6xl md:text-6xl [-webkit-text-stroke:1.2px_currentColor]`}
+>
+ 50
+</span>
 
   <span className="font-guthenBloots"> Women</span>
 </h2>

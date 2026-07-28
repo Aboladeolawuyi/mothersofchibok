@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { afolkalips, hahmlet, productsFont, guthenBloots, greatVibes } from "./fonts";
+import {
+  afolkalips,
+  hahmlet,
+  productsFont,
+  guthenBloots,
+  greatVibes,
+  dancingScript,
+  playwriteNZGuides,
+} from "./fonts";
 import ClientLayout from "./ClientLayout";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -28,9 +36,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${afolkalips.variable} ${hahmlet.variable} ${productsFont.variable} ${guthenBloots.variable} ${greatVibes.variable}`}
-        suppressHydrationWarning
-      >
+  className={`
+    ${geistSans.variable}
+    ${geistMono.variable}
+    ${afolkalips.variable}
+    ${hahmlet.variable}
+    ${productsFont.variable}
+    ${guthenBloots.variable}
+    ${greatVibes.variable}
+    ${dancingScript.variable}
+    ${playwriteNZGuides.variable}
+  `}
+  suppressHydrationWarning
+>
         <ClientLayout>{children}</ClientLayout>
         <SpeedInsights/>
       </body>

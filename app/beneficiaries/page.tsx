@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { dancingScript } from "@/app/fonts";
 import { BeneficiaryDialog, allBeneficiaries, Beneficiary } from "@/components/theImpact/BeneContent";
 
 export default function AllBeneficiariesPage() {
@@ -36,15 +37,24 @@ export default function AllBeneficiariesPage() {
                 </p>
 
                 <h3 className="mt-5 text-4xl leading-tight sm:text-5xl md:text-6xl">
-                  <span className="font-guthenBloots">From </span>
-                  <span className="font-cormorant italic font-bold text-5xl sm:text-6xl md:text-4xl">
+                  
+                    <span className="font-guthenBloots">From </span>
+                  
+                  <span
+                    className={`${dancingScript.className} font-black italic text-5xl sm:text-6xl md:text-6xl [-webkit-text-stroke:1.2px_currentColor]`}
+                  >
                     9
                   </span>
+                  
                   <span className="font-guthenBloots"> to </span>
-                  <span className="font-cormorant italic font-bold text-5xl sm:text-6xl md:text-4xl">
-                    50
+                  
+                  <span
+                    className={`${dancingScript.className} font-black italic text-5xl sm:text-6xl md:text-6xl [-webkit-text-stroke:1.2px_currentColor]`}
+                  >
+                   50
                   </span>
-                  <span className="font-guthenBloots"> Women</span>
+                  
+                    <span className="font-guthenBloots"> Women</span>
                 </h3>
               </div>
             </header>

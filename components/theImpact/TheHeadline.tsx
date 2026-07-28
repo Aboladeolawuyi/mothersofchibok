@@ -1,4 +1,6 @@
 "use client";
+import { greatVibes } from "@/app/fonts";
+import { dancingScript } from "@/app/fonts";
 
 const stats = [
   { value: "9", label: "Women supported in the 2025 pilot" },
@@ -35,7 +37,9 @@ export default function TheHeadline() {
               key={stat.label}
               className="rounded-[18px] border border-white/10 bg-white/[0.035] p-3 text-center sm:rounded-[22px] sm:p-5"
             >
-              <h4 className="font-cormorant italic font-bold text-5xl sm:text-5xl md:text-5xl">
+   <h4
+  className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-5xl [-webkit-text-stroke:1px_currentColor]`}
+>
   {stat.value}
 </h4>
 
