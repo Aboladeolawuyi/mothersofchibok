@@ -137,35 +137,82 @@ export default function SupportSection() {
 
 
 
-          <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
+          <div className="flex flex-col gap-6">
+            {/* Ways to Contribute */}
+            <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
+              <h3 className="font-guthenBloots text-5xl leading-none">
+                Ways to Contribute
+              </h3>
 
-            <h3 className="font-guthenBloots text-5xl leading-none">
-              Donate
-            </h3>
+              <p className="mt-4 font-productsFont text-white/75">
+                Together, we're proving that farming funds education,
+                strengthens families, and creates lasting opportunity.
+              </p>
 
+              <div className="mt-6 flex flex-wrap gap-3">
+  {[
+    "Make a One-Time Gift",
+    "Become a Monthly Partner",
+    "Sponsor a Farmer",
+  ].map((item) => (
+    <div
+      key={item}
+      className="group flex items-center gap-2 rounded-full border border-[#B89C58]/40 bg-black/30 px-4 py-2 transition-all duration-300 hover:border-[#D4AF37] hover:bg-[#B89C58]/10"
+    >
+      <span className="h-2 w-2 rounded-full bg-[#B89C58] transition-transform duration-300 group-hover:scale-125" />
 
-            <p className="mt-4 font-productsFont text-white/75">
-              Your contribution helps provide seeds, tools, training and support that turn resilience into opportunity.
-            </p>
+      <span className="font-productsFont text-sm text-white/90">
+        {item}
+      </span>
+    </div>
+  ))}
+</div>
 
+             
+            </div>
 
-            <Button
-              onClick={() => setDonationOpen(true)}
-              className="mt-7 rounded-full bg-[#B89C58] px-7 py-6 font-productsFont text-sm font-bold uppercase tracking-[0.18em] text-black hover:bg-[#D4AF37]"
-            >
-              Open donation page
-            </Button>
+            {/* Donate */}
+            <div className="rounded-2xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
+              <h3 className="font-guthenBloots text-5xl leading-none">
+                Donate
+              </h3>
+              <p className=" font-productsFont text-white/75">
+                Your contribution helps provide seeds, tools, training,
+                processing support, and market access for women farmers.
+              </p>
 
+              <Button
+                onClick={() => setDonationOpen(true)}
+                className="mt-7 rounded-full bg-[#B89C58] px-7 py-6 font-productsFont text-sm font-bold uppercase tracking-[0.18em] text-black hover:bg-[#D4AF37]"
+              >
+                Open Donation Page
+              </Button>
 
-            <a
-              href={DONATION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 block font-productsFont text-sm text-[#D4AF37] underline underline-offset-4"
-            >
-              Or open donation link in a new tab
-            </a>
+              <a
+                href={DONATION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block font-productsFont text-sm text-[#D4AF37] underline underline-offset-4"
+              >
+                Or open donation link in a new tab
+              </a>
+            </div>
+             <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
+                <h4 className="font-guthenBloots text-3xl text-[#ffffff]">
+                  Together, We Grow
+                </h4>
 
+                <p className=" font-productsFont text-white/80">
+                  Every contribution helps more women build thriving farms,
+                  stronger livelihoods, and brighter futures for their families.
+                </p>
+
+                <p className="mt-3 font-productsFont text-white/80">
+                  Every harvest helps put food on the table. Every harvest helps
+                  keep children in school.
+                </p>
+
+              </div>
           </div>
 
           <div
