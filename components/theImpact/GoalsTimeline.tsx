@@ -75,7 +75,7 @@ const timeline: TimelinePhase[] = [
       "Crop health, expected yield, field challenges, and corrective actions are reviewed and documented.",
     status: "ongoing",
     image: "/assets/images/goals/IMG_0066.JPG.jpeg",
-    
+
     summary:
       "As harvest approaches, women farmers receive practical training on harvesting techniques, post-harvest handling, drying, sorting, quality management, and storage. These practices help preserve quality, minimise losses, and maximise the value of every harvest.",
     // highlights: ["Crop health review", "Yield expectation", "Field correction"],
@@ -393,8 +393,7 @@ export default function GoalsTimeline() {
                       </div>
 
                       <article
-                        className={`flex min-h-[230px] flex-col rounded-[30px] border p-5 transition-all duration-500 group-hover:-translate-y-2 group-focus-visible:ring-2 group-focus-visible:ring-[#D4AF37] ${style.card}`}
-                      >
+className={`flex h-[280px] flex-col rounded-[30px] border p-5 transition-all duration-500 group-hover:-translate-y-2 group-focus-visible:ring-2 group-focus-visible:ring-[#D4AF37] ${style.card}`}                      >
                         <div className="flex items-center justify-between gap-3">
                           <span
                             className={`text-xs uppercase tracking-[0.28em] ${style.number}`}
