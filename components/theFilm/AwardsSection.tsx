@@ -16,17 +16,17 @@ const awards = [
     invert: true,
   },
   {
-    src: "/assets/images/awards/laurel-encounters-2025-Official-Selection-black.png",
-    invert: true,
+    src: "/assets/images/awards/encounter.png",
+    invert: false,
   },
   {
     src: "/assets/images/awards/IDA 41 Best Feature Special Mention Laurel.png",
     invert: true,
   },
-  {
-    src: "/assets/images/awards/IDA 41 Best Short Special Mention Laurel.png",
-    invert: true,
-  },
+  // {
+  //   src: "/assets/images/awards/IDA 41 Best Short Special Mention Laurel.png",
+  //   invert: true,
+  // },
   {
     src: "/assets/images/awards/IDA 41 Pare Lorentz Honorable Mention Laurel.png",
     invert: true,
@@ -76,7 +76,7 @@ export default function AwardsSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+        <div className="grid grid-cols-4 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {awards.map((award, index) => (
             <div
               key={`${award.src}-${index}`}

@@ -43,12 +43,7 @@ const timeline: TimelinePhase[] = [
     status: "completed",
     summary:
       "Every journey begins with understanding where it starts. Baseline assessments capture existing farming practices, harvest volumes, and household needs, helping identify participating women farmers and providing the foundation for measuring progress throughout the initiative.",
-    image: "/assets/images/goals/img_0035.jpeg",
-    // highlights: [
-    //   "Beneficiary profiling",
-    //   "Land and farm needs review",
-    //   "Initial documentation",
-    // ],
+    image: "/assets/images/goals/goals.jpeg",
   },
   {
     title: "Training & Farm Preparation",
@@ -60,11 +55,6 @@ const timeline: TimelinePhase[] = [
     summary:
       "Before planting begins, women farmers receive practical training in Good Agronomic Practices, including land preparation, improved seed varieties, crop management, and sustainable farming techniques. They are also provided with farming inputs and ongoing technical support throughout the season.",
     image: "/assets/images/goals/IMG_0331 2.jpg.jpeg",
-    // highlights: [
-    //   "Input distribution",
-    //   "Good agronomic practices",
-    //   "Technical support",
-    // ],
   },
   {
     title: "Mid-Season Assessment",
@@ -76,11 +66,6 @@ const timeline: TimelinePhase[] = [
     summary:
       "Farming is a continuous process. Throughout the growing season, Field Agents regularly visit each farm to monitor crop development, assess field conditions, identify challenges, and provide technical guidance to help farmers achieve stronger, healthier harvests.",
     image: "/assets/images/goals/IMG_2093.jpg.jpeg",
-    // highlights: [
-    //   "Current active phase",
-    //   "Field monitoring",
-    //   "Planting documentation",
-    // ],
   },
   {
     title: "Pre-Harvest Training",
@@ -219,7 +204,7 @@ function PhaseDialog({
                 {style.label}
               </span>
 
-              <h3 className="mt-5 font-guthenBloots text-5xl leading-none md:text-7xl">
+              <h3 className="mt-5 font-afolkatips text-5xl leading-none md:text-7xl">
                 {phase.label}
               </h3>
             </div>

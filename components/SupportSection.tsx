@@ -139,7 +139,7 @@ export default function SupportSection() {
 
           <div className="flex flex-col gap-6">
             {/* Ways to Contribute */}
-            <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
+            {/* <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
               <h3 className="font-guthenBloots text-5xl leading-none">
                 Ways to Contribute
               </h3>
@@ -149,27 +149,10 @@ export default function SupportSection() {
                 strengthens families, and creates lasting opportunity.
               </p>
 
-              <div className="mt-6 flex flex-wrap gap-3">
-  {[
-    "Make a One-Time Gift",
-    "Become a Monthly Partner",
-    "Sponsor a Farmer",
-  ].map((item) => (
-    <div
-      key={item}
-      className="group flex items-center gap-2 rounded-full border border-[#B89C58]/40 bg-black/30 px-4 py-2 transition-all duration-300 hover:border-[#D4AF37] hover:bg-[#B89C58]/10"
-    >
-      <span className="h-2 w-2 rounded-full bg-[#B89C58] transition-transform duration-300 group-hover:scale-125" />
 
-      <span className="font-productsFont text-sm text-white/90">
-        {item}
-      </span>
-    </div>
-  ))}
-</div>
 
-             
-            </div>
+
+            </div> */}
 
             {/* Donate */}
             <div className="rounded-2xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
@@ -180,7 +163,24 @@ export default function SupportSection() {
                 Your contribution helps provide seeds, tools, training,
                 processing support, and market access for women farmers.
               </p>
+             <div className="mt-6 flex flex-col gap-3">
+  {[
+    "Make a One-Time Gift",
+    "Become a Monthly Partner",
+    "Sponsor a Farmer",
+  ].map((item) => (
+    <div
+      key={item}
+      className="group flex items-center gap-3 bg-transparent transition-all duration-300"
+    >
+      <span className="h-2 w-2 rounded-full bg-[#B89C58] transition-transform duration-300 group-hover:scale-125" />
 
+      <span className="font-productsFont text-sm text-white/90">
+        {item}
+      </span>
+    </div>
+  ))}
+</div>
               <Button
                 onClick={() => setDonationOpen(true)}
                 className="mt-7 rounded-full bg-[#B89C58] px-7 py-6 font-productsFont text-sm font-bold uppercase tracking-[0.18em] text-black hover:bg-[#D4AF37]"
@@ -197,22 +197,22 @@ export default function SupportSection() {
                 Or open donation link in a new tab
               </a>
             </div>
-             <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
-                <h4 className="font-guthenBloots text-3xl text-[#ffffff]">
-                  Together, We Grow
-                </h4>
+            <div className="rounded-3xl border border-white/10 bg-white/[0.05] p-6 sm:p-8">
+              <h4 className="font-guthenBloots text-3xl text-[#ffffff]">
+                Together, We Grow
+              </h4>
 
-                <p className=" font-productsFont text-white/80">
-                  Every contribution helps more women build thriving farms,
-                  stronger livelihoods, and brighter futures for their families.
-                </p>
+              <p className=" font-productsFont text-white/80">
+                Every contribution helps more women build thriving farms,
+                stronger livelihoods, and brighter futures for their families.
+              </p>
 
-                <p className="mt-3 font-productsFont text-white/80">
-                  Every harvest helps put food on the table. Every harvest helps
-                  keep children in school.
-                </p>
+              <p className="mt-3 font-productsFont text-white/80">
+                Every harvest helps put food on the table. Every harvest helps
+                keep children in school.
+              </p>
 
-              </div>
+            </div>
           </div>
 
           <div
@@ -278,59 +278,6 @@ export default function SupportSection() {
                 />
 
               </div>
-
-
-
-
-
-              <div>
-
-                <label
-                  htmlFor="contribution"
-                  className="mb-2 block font-productsFont text-sm text-white/75"
-                >
-                  How would you like to contribute?
-                </label>
-
-
-
-                <select
-
-                  id="contribution"
-
-                  name="contribution"
-
-                  required
-
-                  className="h-12 w-full rounded-none border border-white/20 bg-black/30 px-3 font-productsFont text-white/75 focus:border-[#B89C58] focus:outline-none"
-
-                  defaultValue=""
-
-                >
-
-                  <option value="" disabled>
-                    Select an option
-                  </option>
-
-                  <option value="Make a One-Time Gift">
-                    Make a One-Time Gift
-                  </option>
-
-                  <option value="Become a Monthly Partner">
-                    Become a Monthly Partner
-                  </option>
-
-                  <option value="Sponsor a Farmer">
-                    Sponsor a Farmer
-                  </option>
-
-                </select>
-
-              </div>
-
-
-
-
 
               <Textarea
 

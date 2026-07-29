@@ -37,11 +37,11 @@ export default function TheHeadline() {
               key={stat.label}
               className="rounded-[18px] border border-white/10 bg-white/[0.035] p-3 text-center sm:rounded-[22px] sm:p-5"
             >
-   <h4
-  className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-5xl [-webkit-text-stroke:1px_currentColor]`}
+<h3
+  className={`${dancingScript.className} font-black italic text-3xl sm:text-4xl md:text-3xl [-webkit-text-stroke:1px_currentColor]`}
 >
   {stat.value}
-</h4>
+</h3>
 
               <p className="mt-3 font-guthenBloots text-xl leading-6 text-white/70 sm:mt-4 sm:text-2xl sm:leading-7 md:text-3xl md:leading-8">
                 {stat.label}
