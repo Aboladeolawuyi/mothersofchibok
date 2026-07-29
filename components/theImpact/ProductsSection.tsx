@@ -15,7 +15,7 @@ const productImages = [
   "/assets/images/productpictures/9D4A3233.jpg",
   "/assets/images/productpictures/9D4A4521.jpg",
 
-  "/assets/images/productpictures/9D4A0824.jpg.jpeg",
+  // "/assets/images/productpictures/9D4A0824.jpg.jpeg",
   "/assets/images/productpictures/9d4a1949.jpg",
   "/assets/images/productpictures/9D4A3208.jpg",
   "/assets/images/productpictures/9D4A4523.jpg",
@@ -38,12 +38,12 @@ const productImages = [
   "/assets/images/productpictures/9D4A0876.jpg.jpeg",
   "/assets/images/productpictures/9d4a1974.jpg",
   "/assets/images/productpictures/9D4A3216.jpg",
-  "/assets/images/productpictures/9D4A3244.jpg",
+
 
   "/assets/images/productpictures/9D4A0885.jpg.jpeg",
   "/assets/images/productpictures/9d4a1980.jpg",
   "/assets/images/productpictures/9D4A3229.jpg",
-  "/assets/images/productpictures/9D4A3249.jpg",
+
 
   "/assets/images/productpictures/9D4A1040.jpg.jpeg",
   "/assets/images/productpictures/9d4a1994.jpg",
@@ -56,11 +56,12 @@ const productImages = [
 
   "/assets/images/productpictures/9D4A3257.jpg",
   "/assets/images/productpictures/9D4A3248.jpg",
-  "/assets/images/productpictures/9D4A3259.jpg",
+
 
   "/assets/images/productpictures/9D4A3263.jpg",
   "/assets/images/productpictures/9D4A3269.jpg",
   "/assets/images/productpictures/9D4A3275.jpg",
+  
 
   "/assets/images/productpictures/9D4A3279.jpg",
   "/assets/images/productpictures/9d4a3291.jpg",
