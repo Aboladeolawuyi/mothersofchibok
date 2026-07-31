@@ -160,9 +160,7 @@ export default function ProductsSection() {
             </h2>
           </div>
 
-          <p className="font-productsFont text-xl font-semibold leading-relaxed text-white lg:text-2xl">
-            Every successful harvest creates an opportunity to do more.
-          </p>
+
         </div>
         <div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
           {/* Left: Story */}
