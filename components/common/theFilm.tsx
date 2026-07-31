@@ -120,15 +120,40 @@ export default function TheFilmBox() {
 
       <div className="m-auto lg:space-y-56">
         {/* Animated paragraph */}
-        <p className="film-paragraph w-full font-productsFont tracking-tight3 text-lg lg:text-2xl leading-snug px-8 lg:px-28 text-white mt-10 lg:mt-28 lg:mb-20 md:text-center">
-          {"In a small village in Northeast Nigeria, a community of mothers forge a path forward after the tragic events of April 2014 when their daughters were kidnapped by Boko Haram. The film follows four mothers over a farming season as they fight for their children and their futures. Mothers of Chibok paints a visceral portrait of courage, faith, and the enduring power of hope."
-            .match(/[^.!?]+[.!?]/g)
-            ?.map((sentence, i) => (
-              <span key={i} className="film-sentence opacity-0">
-                {sentence.trim()}&nbsp;
-              </span>
-            ))}
-        </p>
+<div className="mx-auto mt-10 mb-20 max-w-5xl px-8 text-center lg:mt-28 lg:px-28">
+  {/* Opening statement */}
+  <p className="film-paragraph mb-10 font-productsFont text-2xl font-bold leading-relaxed text-white lg:text-3xl">
+    {"The world came to know Chibok because of what was taken. This film is about what remains."
+      .match(/[^.!?]+[.!?]/g)
+      ?.map((sentence, i) => (
+        <span key={i} className="film-sentence opacity-0">
+          {sentence.trim()}{" "}
+        </span>
+      ))}
+  </p>
+
+  {/* Synopsis */}
+  <p className="film-paragraph mb-8 font-productsFont text-base leading-8 text-white/85 lg:text-xl">
+    {`A decade after the Chibok school abduction shook the world, four mothers embark on a quiet but extraordinary journey to rebuild their lives. Over the course of a single farming season, they work the land, provide for their families, and discover that every seed planted is also an act of hope.`
+      .match(/[^.!?]+[.!?]/g)
+      ?.map((sentence, i) => (
+        <span key={i} className="film-sentence opacity-0">
+          {sentence.trim()}{" "}
+        </span>
+      ))}
+  </p>
+
+  {/* Closing */}
+  <p className="film-paragraph font-productsFont text-base leading-8 text-white/85 lg:text-xl">
+    {`Intimate, deeply human, and quietly powerful, Mothers of Chibok is a portrait of resilience, faith, and the enduring strength of motherhood. The film is the feature-length spiritual sequel to the Venice Lion-winning VR documentary Daughters of Chibok.`
+      .match(/[^.!?]+[.!?]/g)
+      ?.map((sentence, i) => (
+        <span key={i} className="film-sentence opacity-0">
+          {sentence.trim()}{" "}
+        </span>
+      ))}
+  </p>
+</div>
 
         {/* <ScreeningGrid /> */}
       </div>

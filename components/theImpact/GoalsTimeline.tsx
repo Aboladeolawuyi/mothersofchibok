@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 const goals = [
-  { value: 50, suffix: "", label: "Women beneficiaries targeted" },
+  { value: 50, suffix: "", label: "Confirmed Beneficiaries" },
   { value: 500, suffix: "+", label: "Bags of groundnuts projected" },
   { value: 25, suffix: "", label: "Hectares under cultivation" },
 ];

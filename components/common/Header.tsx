@@ -11,7 +11,7 @@ type Route = {
 const routes: Route[] = [
   { name: "About the Film", path: "/#film" },
   { name: "About the Impact", path: "/#impact" },
-  { name: "Explore the Products", path: "/#products" },
+  { name: "From Harvest to Home", path: "/#products" },
   { name: "Awards", path: "/#awards" },
   { name: "Support", path: "/#support" },
   { name: "Contact", path: "/#contact" },

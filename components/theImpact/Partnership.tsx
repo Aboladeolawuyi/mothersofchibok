@@ -3,18 +3,18 @@
 import { motion } from "framer-motion";
 
 const partners = [
+    {
+    name: "Uwaosi Rhoda Foundation",
+    logo: "/assets/images/UWAOSIBRANDINGLOGO.png",
+    description:
+      "The Uwaosi Rhoda Foundation empowers women, children, and underserved communities through education and livelihood programmes, including the Chibok Groundnut Initiative, which helps women farmers in Chibok scale their farming and fund their children's education.",
+    featured: true,
+  },
   {
     name: "Impact Partners",
     logo: "/assets/images/impactLogo_white.png",
     description:
       "Impact Partners funds and supports documentary filmmakers, providing the creative partnerships and producer development that help important stories reach the world.",
-    featured: true,
-  },
-  {
-    name: "Uwaosi Rhoda Foundation",
-    logo: "/assets/images/uwaosi-foundation-logo.png",
-    description:
-      "The Uwaosi Rhoda Foundation empowers women, children, and underserved communities through education and livelihood programmes, including the Chibok Groundnut Initiative, which helps women farmers in Chibok scale their farming and fund their children's education.",
     featured: true,
   },
   {

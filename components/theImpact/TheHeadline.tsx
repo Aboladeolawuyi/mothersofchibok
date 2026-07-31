@@ -37,11 +37,11 @@ export default function TheHeadline() {
               key={stat.label}
               className="rounded-[18px] border border-white/10 bg-white/[0.035] p-3 text-center sm:rounded-[22px] sm:p-5"
             >
-<h3
-  className={`${dancingScript.className} font-black italic text-3xl sm:text-4xl md:text-3xl [-webkit-text-stroke:1px_currentColor]`}
->
-  {stat.value}
-</h3>
+              <h3
+                className={`${dancingScript.className} font-black italic text-3xl sm:text-4xl md:text-3xl [-webkit-text-stroke:1px_currentColor]`}
+              >
+                {stat.value}
+              </h3>
 
               <p className="mt-3 font-guthenBloots text-xl leading-6 text-white/70 sm:mt-4 sm:text-2xl sm:leading-7 md:text-3xl md:leading-8">
                 {stat.label}
@@ -66,26 +66,26 @@ export default function TheHeadline() {
           </article>
 
           <article className="rounded-[24px] border border-white/10 bg-white/[0.03] p-6 sm:p-7">
-<h4 className="text-4xl leading-none sm:text-5xl">
-    <span className="font-guthenBloots">From </span>
+            <h4 className="text-4xl leading-none sm:text-5xl">
+              <span className="font-guthenBloots">From </span>
 
-<span
-  className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-4xl [-webkit-text-stroke:1.2px_currentColor]`}
->
-  9
-</span>
+              <span
+                className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-4xl [-webkit-text-stroke:1.2px_currentColor]`}
+              >
+                9
+              </span>
 
-<span className="font-guthenBloots"> to </span>
+              <span className="font-guthenBloots"> to </span>
 
-<span
-  className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-4xl [-webkit-text-stroke:1.2px_currentColor]`}
->
- 50
-</span>
+              <span
+                className={`${dancingScript.className} font-black italic text-5xl sm:text-5xl md:text-4xl [-webkit-text-stroke:1.2px_currentColor]`}
+              >
+                50
+              </span>
 
-  <span className="font-guthenBloots"> Women</span>
-  
-</h4>
+              <span className="font-guthenBloots"> Women</span>
+
+            </h4>
 
             <p className="mt-5 font-productsFont text-base leading-8 text-white/72">
               In 2025, the pilot phase supported nine women farmers in Chibok
@@ -102,11 +102,7 @@ export default function TheHeadline() {
           </h3>
 
           <p className="mt-4 font-productsFont text-base leading-8 text-white/72">
-            During baseline surveys, the women harvested 88 bags of groundnut
-            from 465.2 kg of seed planted across 8.56 hectares. Following the
-            introduction of improved inputs and training, the 2025 mid-season
-            assessment projected 214 bags from 342.4 kg of seed — an increase of
-            more than 140%.
+            During the baseline assessment, the women harvested 88 bags of groundnuts from 465.2 kg of seed planted across 8.56 hectares. For the 2025 farming season, the harvest target was 214 bags from 342.4 kg of seed planted across the same 8.56 hectares. By the end of the harvest season, the women had harvested 176.25 bags, achieving 82% of the target while doubling the baseline harvest.
           </p>
         </div>
       </div>

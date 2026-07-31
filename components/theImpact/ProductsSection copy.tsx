@@ -9,47 +9,64 @@ const productImages = [
   "/assets/images/productpictures/9d4a1920.jpg",
   "/assets/images/productpictures/9D4A3205.jpg",
   "/assets/images/productpictures/9D4A4519.jpg",
+
   "/assets/images/productpictures/9D4A0822.jpg.jpeg",
   "/assets/images/productpictures/9d4a1945.jpg",
   "/assets/images/productpictures/9D4A3233.jpg",
   "/assets/images/productpictures/9D4A4521.jpg",
+
   // "/assets/images/productpictures/9D4A0824.jpg.jpeg",
   "/assets/images/productpictures/9d4a1949.jpg",
   "/assets/images/productpictures/9D4A3208.jpg",
   "/assets/images/productpictures/9D4A4523.jpg",
+
   "/assets/images/productpictures/9D4A0828.jpg.jpeg",
   "/assets/images/productpictures/9d4a1956.jpg",
   "/assets/images/productpictures/9D4A3241.jpg",
   "/assets/images/productpictures/9D4A4538.jpg",
+
   "/assets/images/productpictures/9D4A0834.jpg.jpeg",
   "/assets/images/productpictures/9d4a1958.jpg",
   "/assets/images/productpictures/9D4A3214.jpg",
   "/assets/images/productpictures/9d4a3237.jpg",
+
   "/assets/images/productpictures/9D4A0845.jpg.jpeg",
   "/assets/images/productpictures/9d4a1959.jpg",
   "/assets/images/productpictures/9D4A3247.jpg",
   "/assets/images/productpictures/9D4A3206.jpg",
+
   "/assets/images/productpictures/9D4A0876.jpg.jpeg",
   "/assets/images/productpictures/9d4a1974.jpg",
   "/assets/images/productpictures/9D4A3216.jpg",
+
+
   "/assets/images/productpictures/9D4A0885.jpg.jpeg",
   "/assets/images/productpictures/9d4a1980.jpg",
   "/assets/images/productpictures/9D4A3229.jpg",
+
+
   "/assets/images/productpictures/9D4A1040.jpg.jpeg",
   "/assets/images/productpictures/9d4a1994.jpg",
   "/assets/images/productpictures/9D4A3234.jpg",
   "/assets/images/productpictures/9D4A3254.jpg",
+
   "/assets/images/productpictures/9d4a1996.jpg",
   "/assets/images/productpictures/9D4A3236.jpg",
   "/assets/images/productpictures/9D4A3256.jpg",
+
   "/assets/images/productpictures/9D4A3257.jpg",
   "/assets/images/productpictures/9D4A3248.jpg",
+
+
   "/assets/images/productpictures/9D4A3263.jpg",
   "/assets/images/productpictures/9D4A3269.jpg",
   "/assets/images/productpictures/9D4A3275.jpg",
+  
+
   "/assets/images/productpictures/9D4A3279.jpg",
   "/assets/images/productpictures/9d4a3291.jpg",
   "/assets/images/productpictures/9d4a3297.jpg",
+
   "/assets/images/productpictures/9D4A3303.jpg",
 
   "/assets/images/productpictures/sap_events_mothersofchibokpremiere_108.jpg",
@@ -160,70 +177,11 @@ export default function ProductsSection() {
             </h2>
           </div>
 
-            <p className="font-productsFont text-xl font-semibold leading-relaxed text-white lg:text-2xl">
-    Every successful harvest creates an opportunity to do more.
-  </p>
+          <p className="font-productsFont text-base leading-8 text-white/75 lg:text-lg">
+            By transforming harvested groundnuts into finished world-standard products, we have created opportunities for the Chibok women farmers to earn and live better.
+          </p>
         </div>
-<div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-  {/* Left: Story */}
-  <div className="max-w-4xl">
-    <p className="font-productsFont text-xl font-semibold leading-relaxed text-white lg:text-2xl">
-      Every successful harvest creates an opportunity to do more.
-    </p>
 
-    <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-      As the Chibok Groundnut Initiative grew, so did our ambition.
-      Rather than selling raw groundnuts alone, we partnered with some
-      of Nigeria's leading manufacturers of premium groundnut products
-      to transform the women's harvests into a growing range of beautifully
-      crafted products, including Peanut Butter, Peanut Chocolate, Pure
-      Groundnut Oil, Pop Nuts, and Groundnut Paste.
-    </p>
-
-    <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-      By combining exceptional Chibok-grown groundnuts with expert
-      processing, thoughtful packaging, and strong branding, we've
-      created products that are as meaningful as they are delicious.
-      Every purchase helps create greater value for women farmers while
-      supporting a sustainable, women-led enterprise.
-    </p>
-
-    <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-      Whether you're stocking your pantry, looking for a thoughtful
-      gift, or searching for a uniquely Nigerian souvenir, every
-      product carries a story of resilience, craftsmanship, and hope.
-    </p>
-  </div>
-
-  {/* Right: Video */}
-  <div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.04] shadow-2xl">
-    {/* Replace with your preferred video source */}
-
-    {/* YouTube */}
-    
-    <iframe
-      className="aspect-video w-full"
-      src="https://youtu.be/gVeL2mDMO34"
-      title="Chibok Groundnut Initiative"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-   
-
-    {/* Local MP4 */}
-    {/* <video
-      controls
-      playsInline
-      className="aspect-video w-full object-cover"
-      poster="/assets/images/video-poster.jpg"
-    >
-      <source
-        src="/assets/videos/chibok-groundnut-tour.mp4"
-        type="video/mp4"
-      />
-    </video> */}
-  </div>
-</div>
         <div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.035] py-5">
           <div className="flex w-max gap-4 px-4 [animation:productMarqueeLeft_150s_linear_infinite] hover:[animation-play-state:paused]">
             {[...productImages, ...productImages].map((image, index) => (
@@ -271,27 +229,7 @@ export default function ProductsSection() {
             )}
           </div>
         </div>
-        <div className="mx-auto mt-16 max-w-5xl text-center">
-          <div className="space-y-8 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-            
 
-            <p>
-              Available to order online through our website or at
-              <span className="text-[#D4AF37]">
-                {" "}
-                Gather House, Ikoyi, Lagos.
-              </span>
-            </p>
-
-            <p className="font-guthenBloots text-3xl leading-none text-[#D4AF37] sm:text-4xl">
-              Taste the story.
-            
-              Share the story.
-            
-              Help it grow.
-            </p>
-          </div>
-        </div>
         <div className="mt-10 grid gap-5 md:grid-cols-2">
           {productCards.map((card) => (
             <article
