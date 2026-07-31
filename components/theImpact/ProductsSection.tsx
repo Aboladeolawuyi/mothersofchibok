@@ -160,67 +160,50 @@ export default function ProductsSection() {
             </h2>
           </div>
 
-            <p className="font-productsFont text-xl font-semibold leading-relaxed text-white lg:text-2xl">
-    Every successful harvest creates an opportunity to do more.
-  </p>
+          <p className="font-productsFont text-xl font-semibold leading-relaxed text-white lg:text-2xl">
+            Every successful harvest creates an opportunity to do more.
+          </p>
         </div>
-<div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-  {/* Left: Story */}
-  <div className="max-w-4xl">
+        <div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+          {/* Left: Story */}
+          <div className="max-w-4xl">
 
-    <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-      As the Chibok Groundnut Initiative grew, so did our ambition.
-      Rather than selling raw groundnuts alone, we partnered with some
-      of Nigeria's leading manufacturers of premium groundnut products
-      to transform the women's harvests into a growing range of beautifully
-      crafted products, including Peanut Butter, Peanut Chocolate, Pure
-      Groundnut Oil, Pop Nuts, and Groundnut Paste.
-    </p>
+            <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
+              Every successful harvest creates an opportunity to do more and our ambition is more than just selling raw groundnuts. Working with leading manufacturers of premium groundnut products we are transforming raw groundnut harvests into a range of beautifully crafted premium products. Every purchase ensures that farming continues to fund education.
+            </p>
 
-    <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-      By combining exceptional Chibok-grown groundnuts with expert
-      processing, thoughtful packaging, and strong branding, we've
-      created products that are as meaningful as they are delicious.
-      Every purchase helps create greater value for women farmers while
-      supporting a sustainable, women-led enterprise.
-    </p>
 
-    <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-      Whether you're stocking your pantry, looking for a thoughtful
-      gift, or searching for a uniquely Nigerian souvenir, every
-      product carries a story of resilience, craftsmanship, and hope.
-    </p>
-  </div>
+          </div>
 
-  {/* Right: Video */}
-  <div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.04] shadow-2xl">
-    {/* Replace with your preferred video source */}
+          {/* Right: Video */}
+          <div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.04] shadow-2xl">
+            {/* Replace with your preferred video source */}
 
-    {/* YouTube */}
-    
-    <iframe
-      className="aspect-video w-full"
-      src="https://youtu.be/gVeL2mDMO34"
-      title="Chibok Groundnut Initiative"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-   
+            {/* YouTube */}
 
-    {/* Local MP4 */}
-    {/* <video
-      controls
-      playsInline
-      className="aspect-video w-full object-cover"
-      poster="/assets/images/video-poster.jpg"
-    >
-      <source
-        src="/assets/videos/chibok-groundnut-tour.mp4"
-        type="video/mp4"
-      />
-    </video> */}
-  </div>
-</div>
+            {/* <iframe
+              className="aspect-video w-full"
+              src="https://www.youtube.com/embed/gVeL2mDMO34"
+              title="Chibok Groundnut Initiative"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            /> */}
+
+
+            {/* Local MP4 */}
+            <video
+              controls
+              playsInline
+              className="aspect-video w-full object-cover"
+              poster="/assets/images/video-poster.jpg"
+            >
+              <source
+                src="/assets/video/mocfactoryvisit.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
         <div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.035] py-5">
           <div className="flex w-max gap-4 px-4 [animation:productMarqueeLeft_150s_linear_infinite] hover:[animation-play-state:paused]">
             {[...productImages, ...productImages].map((image, index) => (
@@ -270,7 +253,7 @@ export default function ProductsSection() {
         </div>
         <div className="mx-auto mt-16 max-w-5xl text-center">
           <div className="space-y-8 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
-            
+
 
             <p>
               Available to order online through our website or at
@@ -282,9 +265,9 @@ export default function ProductsSection() {
 
             <p className="font-guthenBloots text-3xl leading-none text-[#D4AF37] sm:text-4xl">
               Taste the story.
-            
+
               Share the story.
-            
+
               Help it grow.
             </p>
           </div>

@@ -561,7 +561,7 @@ export default function BeneContent() {
 </h2>
           </div>
 
-          <p className="font-productsFont italic text-base leading-8 text-white/72 lg:text-lg">
+          <p className="font-productsFont text-base leading-8 text-white/72 lg:text-lg">
             A journey that began with 9 women now extends to 50 beneficiaries, each with a story of resilience and hope.
           </p>
         </div>
