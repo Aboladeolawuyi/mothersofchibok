@@ -167,9 +167,6 @@ export default function ProductsSection() {
 <div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
   {/* Left: Story */}
   <div className="max-w-4xl">
-    <p className="font-productsFont text-xl font-semibold leading-relaxed text-white lg:text-2xl">
-      Every successful harvest creates an opportunity to do more.
-    </p>
 
     <p className="mt-6 font-productsFont text-base leading-8 text-white/75 lg:text-lg">
       As the Chibok Groundnut Initiative grew, so did our ambition.
