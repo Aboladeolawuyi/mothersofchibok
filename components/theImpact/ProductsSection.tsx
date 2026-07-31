@@ -194,13 +194,15 @@ export default function ProductsSection() {
             <video
               controls
               playsInline
+              preload="metadata"
               className="aspect-video w-full object-cover"
               poster="/assets/images/video-poster.jpg"
             >
               <source
-                src="/assets/video/mocfactoryvisit.mp4"
+                src="https://res.cloudinary.com/davm498td/video/upload/v1785525199/Mothers_of_Chibok_Factory_visit_2_d7apt0.mp4"
                 type="video/mp4"
               />
+              Your browser does not support the video tag.
             </video>
           </div>
         </div>
@@ -256,7 +258,7 @@ export default function ProductsSection() {
 
 
             <p>
-              Available to order online through our website or at
+              To taste, buy and share, order here or visit
               <span className="text-[#D4AF37]">
                 {" "}
                 Gather House, Ikoyi, Lagos.
