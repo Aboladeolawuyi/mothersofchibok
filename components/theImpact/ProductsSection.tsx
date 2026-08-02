@@ -194,7 +194,7 @@ export default function ProductsSection() {
               playsInline
               preload="metadata"
               className="aspect-video w-full object-cover"
-              poster="/assets/images/video-poster.jpg"
+              poster="/assets/images/poster.png"
             >
               <source
                 src="https://res.cloudinary.com/davm498td/video/upload/v1785525199/Mothers_of_Chibok_Factory_visit_2_d7apt0.mp4"
