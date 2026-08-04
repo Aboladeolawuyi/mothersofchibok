@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 
@@ -47,13 +48,14 @@ const partners = [
       "Zenfix transforms locally sourced Nigerian groundnuts into nutritious, great-tasting snacks, creating value for consumers and farmers alike.",
     featured: false,
   },
-  {
-    name: "Nutzy",
-    logo: "/assets/images/nutzy1.jpg",
-    description:
-      "One of Nigeria's most beloved groundnut butter brands, Nutzy crafts nutritious groundnut butter and snack products from locally sourced ingredients, with quality and community at its core.",
-    featured: false,
-  },
+ {
+  name: "Nutzy",
+  logo: "/assets/images/nutzy1.jpg",
+  description:
+    "One of Nigeria's most beloved groundnut butter brands, Nutzy crafts nutritious groundnut butter and snack products from locally sourced ingredients, with quality and community at its core.",
+  featured: true,
+  naturalLogo: true,
+},
   {
     name: "Nutri Cabin",
     logo: "/assets/images/black.jpg",
@@ -117,18 +119,27 @@ export default function Partnership() {
               <div className="absolute inset-0 opacity-0 transition duration-500 group-hover:opacity-100 bg-[radial-gradient(circle_at_top_right,rgba(212,175,55,0.16),transparent_42%)]" />
 
               <div className="absolute inset-0 flex items-center justify-center p-8 transition-all duration-500 group-hover:opacity-0 group-hover:scale-90">
-                <img
-                  src={partner.logo}
-                  alt={partner.name}
-                  className={`
-  object-contain
-  ${partner.darkenLogo ? "brightness-75 contrast-110" : "brightness-200 contrast-125"}
-  transition-all
-  duration-500
-  ${partner.featured ? "max-h-[140px] max-w-[80%]" : "max-h-[100px] max-w-[75%]"
-                    }
-`}
-                />
+              <img
+  src={partner.logo}
+  alt={partner.name}
+  className={`
+    object-contain
+    ${
+      partner.naturalLogo
+        ? ""
+        : partner.darkenLogo
+        ? "brightness-75 contrast-110"
+        : "brightness-200 contrast-125"
+    }
+    transition-all
+    duration-500
+    ${
+      partner.featured
+        ? "max-h-[140px] max-w-[80%]"
+        : "max-h-[100px] max-w-[75%]"
+    }
+  `}
+/>
               </div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center opacity-0 translate-y-6 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">

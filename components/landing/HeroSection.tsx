@@ -34,8 +34,9 @@ const marqueeWords = [
 
 export default function HeroSection({ onWatchTrailer }: Props) {
   const slogan = {
-  first: "The world came to know Chibok because of what was taken.",
-  second: "This film is about what remains.",
+  first: "The world came to know Chibok",
+  second: "because of what was taken.",
+  third:"This film is about what remains.",
 };
 
   return (
@@ -81,6 +82,20 @@ export default function HeroSection({ onWatchTrailer }: Props) {
 
   <div>
     {slogan.second.split(" ").map((word, index) => (
+      <motion.span
+        key={`second-${word}-${index}`}
+        custom={index + slogan.first.split(" ").length}
+        variants={wordAnimation}
+        initial="hidden"
+        animate="visible"
+        className="mr-2 inline-block"
+      >
+        {word}
+      </motion.span>
+    ))}
+  </div>
+  <div>
+    {slogan.third.split(" ").map((word, index) => (
       <motion.span
         key={`second-${word}-${index}`}
         custom={index + slogan.first.split(" ").length}
