@@ -123,7 +123,7 @@ export default function TheFilmBox() {
 <div className="mx-auto mt-10 mb-20 max-w-5xl px-8 text-center lg:mt-28 lg:px-28">
   {/* Opening statement */}
   <p className="film-paragraph mb-10 font-productsFont text-2xl font-bold leading-relaxed text-white lg:text-3xl">
-    {"The world came to know Chibok because of what was taken. This film is about what remains."
+    {"''"
       .match(/[^.!?]+[.!?]/g)
       ?.map((sentence, i) => (
         <span key={i} className="film-sentence opacity-0">

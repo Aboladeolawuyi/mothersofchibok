@@ -194,7 +194,7 @@ export default function ProductsSection() {
               playsInline
               preload="metadata"
               className="aspect-video w-full object-cover"
-              poster="/assets/images/poster.png"
+              poster="/assets/images/poster1.png"
             >
               <source
                 src="https://res.cloudinary.com/davm498td/video/upload/v1785525199/Mothers_of_Chibok_Factory_visit_2_d7apt0.mp4"
@@ -256,11 +256,22 @@ export default function ProductsSection() {
 
 
             <p>
-              To taste, buy and share, order here or visit
-              <span className="text-[#D4AF37]">
-                {" "}
+              To taste, buy and share,{" "}
+              <a
+                href="#support"
+                className="text-[#D4AF37] underline underline-offset-4 transition hover:text-white"
+              >
+                order here
+              </a>{" "}
+              or visit{" "}
+              <a
+                href="https://maps.app.goo.gl/28W6HxZAztn56LuD8?g_st=ic"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#D4AF37] underline underline-offset-4 transition hover:text-white"
+              >
                 Gather House, Ikoyi, Lagos.
-              </span>
+              </a>
             </p>
 
             <p className="font-guthenBloots text-3xl leading-none text-[#D4AF37] sm:text-4xl">

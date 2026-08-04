@@ -33,10 +33,13 @@ const marqueeWords = [
 ];
 
 export default function HeroSection({ onWatchTrailer }: Props) {
-  const slogan = '"If you think you know their story, think again."';
+  const slogan = {
+  first: "The world came to know Chibok because of what was taken.",
+  second: "This film is about what remains.",
+};
 
   return (
-    <div className="relative z-10 flex h-full min-h-[560px] flex-col items-center justify-center px-5 py-14 text-center text-white sm:px-8 lg:px-12">
+    <div className="relative z-10 flex h-full min-h-[560px] flex-col items-center justify-center px-5 pt-12 pb-0 text-center text-white sm:px-8 lg:px-12">
       {/* SIMA-inspired moving headline layer: bold, cinematic, but kept inside the existing rounded hero-card style. */}
       <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden rounded-[28px] sm:rounded-[32px]">
         <motion.div
@@ -60,20 +63,37 @@ export default function HeroSection({ onWatchTrailer }: Props) {
       </div>
 
       <div className="relative z-10 flex max-w-5xl flex-col items-center">
-        <h1 className="mx-auto max-w-4xl font-productsFont text-[clamp(3rem,7.6vw,7rem)] font-normal leading-[1.02] tracking-[-0.065em] text-white drop-shadow-[0_10px_38px_rgba(0,0,0,0.62)]">
-          {slogan.split(" ").map((word, index) => (
-            <motion.span
-              key={`${word}-${index}`}
-              custom={index}
-              variants={wordAnimation}
-              initial="hidden"
-              animate="visible"
-              className="mr-2 inline-block sm:mr-3"
-            >
-              {word}
-            </motion.span>
-          ))}
-        </h1>
+        <h1 className="mx-auto max-w-4xl text-center font-productsFont text-[clamp(2rem,4.5vw,4.5rem)] font-normal leading-tight tracking-[-0.03em] text-white drop-shadow-[0_10px_38px_rgba(0,0,0,0.62)]">
+  <div className="mb-2">
+    {slogan.first.split(" ").map((word, index) => (
+      <motion.span
+        key={`first-${word}-${index}`}
+        custom={index}
+        variants={wordAnimation}
+        initial="hidden"
+        animate="visible"
+        className="mr-2 inline-block"
+      >
+        {word}
+      </motion.span>
+    ))}
+  </div>
+
+  <div>
+    {slogan.second.split(" ").map((word, index) => (
+      <motion.span
+        key={`second-${word}-${index}`}
+        custom={index + slogan.first.split(" ").length}
+        variants={wordAnimation}
+        initial="hidden"
+        animate="visible"
+        className="mr-2 inline-block"
+      >
+        {word}
+      </motion.span>
+    ))}
+  </div>
+</h1>
 
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -85,26 +105,26 @@ export default function HeroSection({ onWatchTrailer }: Props) {
         </motion.p>
 
         <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, delay: 1.05 }}
-  className="mt-7 flex w-full max-w-2xl flex-col items-center justify-center gap-3 sm:flex-row"
->
-  {heroAnchors.map((anchor) => (
-    <a
-      key={anchor.href}
-      href={anchor.href}
-      className="group inline-flex min-w-[190px] items-center justify-center gap-2 rounded-full bg-[#B89C58] px-6 py-3 font-productsFont text-xs font-semibold text-black shadow-[0_12px_35px_rgba(0,0,0,0.18)] backdrop-blur transition hover:bg-white hover:text-neutral-950 sm:min-w-0"
-    >
-      {anchor.label}
-      <ArrowDown className="h-3.5 w-3.5 transition group-hover:translate-y-0.5" />
-    </a>
-  ))}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 1.05 }}
+          className="mt-7 flex w-full max-w-2xl flex-col items-center justify-center gap-3 sm:flex-row"
+        >
+          {heroAnchors.map((anchor) => (
+            <a
+              key={anchor.href}
+              href={anchor.href}
+              className="group inline-flex min-w-[190px] items-center justify-center gap-2 rounded-full bg-[#B89C58] px-6 py-3 font-productsFont text-xs font-semibold text-black shadow-[0_12px_35px_rgba(0,0,0,0.18)] backdrop-blur transition hover:bg-white hover:text-neutral-950 sm:min-w-0"
+            >
+              {anchor.label}
+              <ArrowDown className="h-3.5 w-3.5 transition group-hover:translate-y-0.5" />
+            </a>
+          ))}
 
-  <button type="button" onClick={onWatchTrailer} className="sr-only">
-    Watch trailer
-  </button>
-</motion.div>
+          <button type="button" onClick={onWatchTrailer} className="sr-only">
+            Watch trailer
+          </button>
+        </motion.div>
       </div>
     </div>
   );

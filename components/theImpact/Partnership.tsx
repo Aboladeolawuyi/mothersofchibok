@@ -3,13 +3,7 @@
 import { motion } from "framer-motion";
 
 const partners = [
-    {
-    name: "Uwaosi Rhoda Foundation",
-    logo: "/assets/images/UWAOSIBRANDINGLOGO.png",
-    description:
-      "The Uwaosi Rhoda Foundation empowers women, children, and underserved communities through education and livelihood programmes, including the Chibok Groundnut Initiative, which helps women farmers in Chibok scale their farming and fund their children's education.",
-    featured: true,
-  },
+  
   {
     name: "Impact Partners",
     logo: "/assets/images/impactLogo_white.png",
@@ -24,6 +18,13 @@ const partners = [
       "Artemis Rising Foundation supports media, arts, and education projects that influence culture, backing documentary films and initiatives that drive meaningful change in public policy, education, and society.",
     featured: true,
     darkenLogo: true,
+  },
+    {
+    name: "Uwaosi Rhoda Foundation",
+    logo: "/assets/images/uwaosi.jpeg",
+    description:
+      "The Uwaosi Rhoda Foundation empowers women, children, and underserved communities through education and livelihood programmes, including the Chibok Groundnut Initiative, which helps women farmers in Chibok scale their farming and fund their children's education.",
+    featured: true,
   },
   {
     name: "Hunting Lane",
