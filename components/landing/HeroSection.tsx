@@ -78,35 +78,35 @@ export default function HeroSection({ onWatchTrailer }: Props) {
       </motion.span>
     ))}
   </div>
-
-  <div>
+  <div className="mb-2">
     {slogan.second.split(" ").map((word, index) => (
       <motion.span
-        key={`second-${word}-${index}`}
-        custom={index + slogan.first.split(" ").length}
+        key={`first-${word}-${index}`}
+        custom={index}
         variants={wordAnimation}
         initial="hidden"
         animate="visible"
         className="mr-2 inline-block"
-      >
+      >        
         {word}
       </motion.span>
     ))}
   </div>
-  <div>
+    <div className="mb-2">
     {slogan.third.split(" ").map((word, index) => (
       <motion.span
-        key={`second-${word}-${index}`}
-        custom={index + slogan.first.split(" ").length}
+        key={`first-${word}-${index}`}
+        custom={index}
         variants={wordAnimation}
         initial="hidden"
         animate="visible"
         className="mr-2 inline-block"
-      >
+      >        
         {word}
       </motion.span>
     ))}
   </div>
+  
 </h1>
 
         <motion.p
