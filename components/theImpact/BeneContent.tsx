@@ -330,10 +330,10 @@ And the Chibok Groundnut Initiative (CGI) has been a vital lifeline, providing t
   {
     id: 38,
     src: "/assets/images/Beneficiary Photos/RahabPeter.jpeg",
-    name: "RAHAB PETER",
+    name: "RAHAP PETER",
     title: "Holding On to School",
     bio: "A beneficiary profile awaiting final approved story and photograph.",
-    fullStory: `Rahab Peter is a widow and mother of six who continues to fight for her children’s education, even when resources fall short. Her business has struggled under pressure, and two of her children have had to leave school. Still, she remains committed to the four who are still in the classroom. Rahap’s determination is clear in what she continues to protect. Chibok Groundnut Initiative's (CGI) support helps her build a more stable path for her family.`,
+    fullStory: `Rahap Peter is a widow and mother of six who continues to fight for her children’s education, even when resources fall short. Her business has struggled under pressure, and two of her children have had to leave school. Still, she remains committed to the four who are still in the classroom. Rahap’s determination is clear in what she continues to protect. Chibok Groundnut Initiative's (CGI) support helps her build a more stable path for her family.`,
   },
   {
     id: 39,
