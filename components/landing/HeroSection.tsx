@@ -63,7 +63,7 @@ export default function HeroSection({ onWatchTrailer }: Props) {
         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/55 to-transparent" />
       </div>
       <div className="relative z-10 flex max-w-5xl flex-col items-center">
-        <h1 className="mx-auto max-w-4xl text-center font-productsFont text-[clamp(1.5rem,4.5vw,6rem)] font-normal leading-tight tracking-[-0.03em] text-white drop-shadow-[0_10px_38px_rgba(0,0,0,0.62)]">
+        <h1 className="mx-auto max-w-4xl text-center font-productsFont text-[clamp(1.2rem,4.5vw,6rem)] font-normal leading-tight tracking-[-0.03em] text-white drop-shadow-[0_10px_38px_rgba(0,0,0,0.62)]">
   <div className="mb-2">
     {slogan.first.split(" ").map((word, index) => (
       <motion.span
