@@ -35,7 +35,7 @@ const marqueeWords = [
 export default function HeroSection({ onWatchTrailer }: Props) {
   const slogan = {
   first: "The world came to know Chibok",
-  second: "Because of what was taken.",
+  second: "because of what was taken.",
   third:"This film is about what remains.",
 };
 
