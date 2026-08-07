@@ -64,7 +64,7 @@ export default function HeroSection({ onWatchTrailer }: Props) {
       </div>
       <div className="relative z-10 flex max-w-5xl flex-col items-center">
 <h1 className="mx-auto flex max-w-4xl flex-col gap-2 text-center font-productsFont text-[clamp(1.4rem,4.5vw,6rem)] font-normal leading-tight tracking-[-0.03em] text-white drop-shadow-[0_10px_38px_rgba(0,0,0,0.62)]">
-  <div>
+  <div className="block whitespace-nowrap">
     {slogan.first.split(" ").map((word, index) => (
       <motion.span
         key={`first-${word}-${index}`}
@@ -72,14 +72,14 @@ export default function HeroSection({ onWatchTrailer }: Props) {
         variants={wordAnimation}
         initial="hidden"
         animate="visible"
-        className="mr-2 inline-block"
+        className="inline-block mr-2"
       >
         {word}
       </motion.span>
     ))}
   </div>
 
-  <div>
+  <div className="block whitespace-nowrap">
     {slogan.second.split(" ").map((word, index) => (
       <motion.span
         key={`second-${word}-${index}`}
@@ -87,14 +87,14 @@ export default function HeroSection({ onWatchTrailer }: Props) {
         variants={wordAnimation}
         initial="hidden"
         animate="visible"
-        className="mr-2 inline-block"
+        className="inline-block mr-2"
       >
         {word}
       </motion.span>
     ))}
   </div>
 
-  <div>
+  <div className="block whitespace-nowrap">
     {slogan.third.split(" ").map((word, index) => (
       <motion.span
         key={`third-${word}-${index}`}
@@ -102,7 +102,7 @@ export default function HeroSection({ onWatchTrailer }: Props) {
         variants={wordAnimation}
         initial="hidden"
         animate="visible"
-        className="mr-2 inline-block"
+        className="inline-block mr-2"
       >
         {word}
       </motion.span>
